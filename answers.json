@@ -1,0 +1,191 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "points": 3,
+   "topic": "Test design"
+  },
+  {
+   "n": 2,
+   "points": 7,
+   "topic": "Two-proportion z-test"
+  },
+  {
+   "n": 3,
+   "points": 4,
+   "topic": "Testing against a minimum lift"
+  },
+  {
+   "n": 4,
+   "points": 7,
+   "topic": "Pricing the lift"
+  },
+  {
+   "n": 5,
+   "points": 6,
+   "topic": "Sample size"
+  },
+  {
+   "n": 6,
+   "points": 4,
+   "topic": "Peeking"
+  },
+  {
+   "n": 7,
+   "points": 4,
+   "topic": "Logit shares"
+  },
+  {
+   "n": 8,
+   "points": 7,
+   "topic": "Reading a logit fit, WTP"
+  },
+  {
+   "n": 9,
+   "points": 5,
+   "topic": "IIA"
+  },
+  {
+   "n": 10,
+   "points": 3,
+   "topic": "McFadden \u03c1\u00b2"
+  },
+  {
+   "n": 11,
+   "points": 5,
+   "topic": "Regret"
+  },
+  {
+   "n": 12,
+   "points": 4,
+   "topic": "\u03b5-greedy floor"
+  },
+  {
+   "n": 13,
+   "points": 3,
+   "topic": "\u03b5-greedy probabilities"
+  },
+  {
+   "n": 14,
+   "points": 6,
+   "topic": "Thompson sampling"
+  },
+  {
+   "n": 15,
+   "points": 3,
+   "topic": "Model families"
+  },
+  {
+   "n": 16,
+   "points": 4,
+   "topic": "Splits"
+  },
+  {
+   "n": 17,
+   "points": 5,
+   "topic": "Overfitting, Ridge and LASSO"
+  },
+  {
+   "n": 18,
+   "points": 7,
+   "topic": "Cutoffs and costs"
+  },
+  {
+   "n": 19,
+   "points": 6,
+   "topic": "ROC and AUC"
+  },
+  {
+   "n": 20,
+   "points": 7,
+   "topic": "Audit a model report"
+  }
+ ],
+ "answers": {
+  "q2": {
+   "pool": 0.062625,
+   "se": 0.0017132295435083999,
+   "z": 3.064387968263089,
+   "p": 0.0010905792488534395
+  },
+  "q3": {
+   "z": 1.313309129255611,
+   "p": 0.09453940176743611
+  },
+  "q4": {
+   "se_un": 0.0017131289903273483,
+   "lo": 0.001892267178958402,
+   "hi": 0.008607732821041608,
+   "dollars": 17325.000000000015,
+   "payback": 43.29004329004326,
+   "dlo": 6244.481690562727,
+   "dhi": 28405.518309437306
+  },
+  "q5": {
+   "n_raw": 31105.214901,
+   "n": 31106,
+   "days": 12.4424
+  },
+  "q7": {
+   "PA": 0.5072243307237883,
+   "PB": 0.34000263672116615,
+   "P0": 0.1527730325550456
+  },
+  "q8": {
+   "wtp_bag": 30.0,
+   "wtp_flex": 11.999999999999998,
+   "z_flex": 1.4999999999999998,
+   "z_bag": 7.5
+  },
+  "q9": {
+   "buy1": 0.710949502625004,
+   "buy2": 0.8310584287078469
+  },
+  "q10": {
+   "LL0": -1538.0572041353537,
+   "rho2": 0.18728640479746672
+  },
+  "q11": {
+   "oracle": 3300.0,
+   "plan": 3100.0,
+   "regret": 200.0,
+   "dollars": 2400.0
+  },
+  "q12": {
+   "floor": 80.0
+  },
+  "q13": {
+   "leader": 0.9,
+   "other": 0.049999999999999996
+  },
+  "q14": {
+   "sent": "C",
+   "post_after": [
+    2,
+    3
+   ],
+   "meanB": 0.5555555555555556
+  },
+  "q16": {
+   "train": 21000,
+   "val": 4500,
+   "pos_val": 360,
+   "sd": 18.19890106572372
+  },
+  "q18": {
+   "costs": {
+    "0.3": 89000,
+    "0.6": 102500
+   },
+   "acc": {
+    "0.3": 0.865,
+    "0.6": 0.9275
+   },
+   "breakeven": 0.18181818181818182
+  },
+  "q19": {
+   "pairs": 15.5,
+   "auc": 0.775
+  }
+ }
+}
